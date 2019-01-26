@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.library_manage.view.BookTypeAdd">
+  <grid id="27dc6" binding="book_type_add" layout-manager="FormLayout">
+    <rowspec value="center:154px:noGrow"/>
+    <rowspec value="top:13dlu:noGrow"/>
+    <rowspec value="center:147px:noGrow"/>
+    <rowspec value="top:15dlu:noGrow"/>
+    <rowspec value="center:87px:noGrow"/>
+    <colspec value="fill:319px:noGrow"/>
+    <colspec value="left:118dlu:noGrow"/>
+    <colspec value="left:68dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <constraints>
+      <xy x="20" y="20" width="695" height="434"/>
+    </constraints>
+    <properties>
+      <background color="-5593172"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="ecc92" class="javax.swing.JLabel" binding="BTN_Lab">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <text value="图书类别名称："/>
+        </properties>
+      </component>
+      <component id="f41b1" class="javax.swing.JLabel" binding="BTD_Lab">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font size="16" style="1"/>
+          <text value="图书类别描述："/>
+        </properties>
+      </component>
+      <component id="4c169" class="javax.swing.JButton" binding="Add">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="130" bottom="0" right="0" defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <icon value="image/add_16px.png"/>
+          <text value="添加"/>
+        </properties>
+      </component>
+      <component id="710" class="javax.swing.JTextArea" binding="BTD_Txt">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6ad9" class="javax.swing.JTextField" binding="BTN_Txt">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="2" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b93fb" class="javax.swing.JButton" binding="Reset">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="0" bottom="0" right="60" defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <icon value="image/Restart.png"/>
+          <text value="重置"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

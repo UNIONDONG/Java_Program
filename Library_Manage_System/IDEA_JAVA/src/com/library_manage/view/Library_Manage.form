@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.library_manage.view.Library_Manage">
+  <grid id="27dc6" binding="Lib_Man" layout-manager="FormLayout">
+    <rowspec value="center:77px:noGrow"/>
+    <rowspec value="top:34dlu:noGrow"/>
+    <rowspec value="center:28px:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:41px:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:124px:noGrow"/>
+    <colspec value="fill:204px:grow"/>
+    <colspec value="left:99dlu:noGrow"/>
+    <colspec value="fill:58px:grow"/>
+    <constraints>
+      <xy x="20" y="27" width="514" height="389"/>
+    </constraints>
+    <properties>
+      <font/>
+      <maximumSize width="48" height="17"/>
+      <minimumSize width="293" height="101"/>
+    </properties>
+    <border type="none" title-justification="1" title-position="3">
+      <font size="11" style="1"/>
+      <title-color color="-16056313"/>
+    </border>
+    <children>
+      <component id="90c78" class="javax.swing.JLabel" binding="BMS">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <font name="Freestyle Script" size="36" style="1"/>
+          <foreground color="-14563276"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="4"/>
+          <icon value="image/book2.png"/>
+          <text value="Books Management System"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="b762a" class="javax.swing.JLabel" binding="User_Name">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <horizontalAlignment value="4"/>
+          <horizontalTextPosition value="4"/>
+          <icon value="image/user.png"/>
+          <maximumSize width="100" height="100"/>
+          <text value="用户名："/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="44729" class="javax.swing.JTextField" binding="User_Text">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="63650" class="javax.swing.JPasswordField" binding="Pswd_In">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="eda07" class="javax.swing.JLabel" binding="Pswd_L">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <horizontalAlignment value="10"/>
+          <horizontalTextPosition value="4"/>
+          <icon value="image/password.png"/>
+          <maximumSize width="100" height="100"/>
+          <text value="密码："/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="de787" class="javax.swing.JButton" binding="Reset">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="0" bottom="0" right="40" defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <icon value="image/Restart.png"/>
+          <text value="重置"/>
+        </properties>
+      </component>
+      <component id="b8428" class="javax.swing.JButton" binding="Log_in">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="100" bottom="0" right="0" defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <hideActionText value="true"/>
+          <icon value="image/login.png"/>
+          <text value="登陆"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

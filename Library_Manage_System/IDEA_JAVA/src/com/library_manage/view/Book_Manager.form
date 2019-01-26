@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.library_manage.view.Book_Manager">
+  <grid id="f2d1f" binding="Book_Manager" layout-manager="FormLayout">
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <constraints>
+      <xy x="20" y="20" width="589" height="923"/>
+    </constraints>
+    <properties>
+      <enabled value="false"/>
+    </properties>
+    <border type="none" title="搜索查询">
+      <font size="12" style="1"/>
+    </border>
+    <children>
+      <grid id="4bfa4" binding="BookManager" layout-manager="FormLayout">
+        <rowspec value="center:52px:noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:136px:noGrow"/>
+        <rowspec value="top:5dlu:noGrow"/>
+        <rowspec value="center:155px:noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:66px:noGrow"/>
+        <colspec value="fill:14px:grow"/>
+        <colspec value="left:40dlu:noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:max(d;4px):noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:max(d;4px):noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:max(d;4px):noGrow"/>
+        <colspec value="fill:19px:grow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:43px:grow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:61px:noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:87px:noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-6317151"/>
+          <enabled value="true"/>
+          <focusCycleRoot value="false"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visible value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="3752c" binding="scrollpane">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="17" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false" defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <background color="-16056313"/>
+              <enabled value="false"/>
+              <foreground color="-6317151"/>
+            </properties>
+            <border type="none" title=""/>
+            <children>
+              <component id="f023e" class="javax.swing.JTable" binding="book_data_table">
+                <constraints/>
+                <properties>
+                  <autoCreateRowSorter value="true"/>
+                  <autoResizeMode value="1"/>
+                  <background color="-855310"/>
+                  <dropMode value="USE_SELECTION"/>
+                  <enabled value="true"/>
+                  <fillsViewportHeight value="false"/>
+                  <foreground color="-16056313"/>
+                  <gridColor color="-7388963"/>
+                  <inheritsPopupMenu value="true"/>
+                  <selectionBackground color="-15076847"/>
+                  <showHorizontalLines value="true"/>
+                  <visible value="true"/>
+                </properties>
+                <clientProperties>
+                  <JTable.autoStartsEdit class="java.lang.Boolean" value="true"/>
+                </clientProperties>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="af0c2" class="javax.swing.JLabel" binding="BN_lable">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="图书名称:"/>
+            </properties>
+          </component>
+          <component id="47381" class="javax.swing.JButton" binding="Query_butt">
+            <constraints>
+              <grid row="0" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="查询"/>
+            </properties>
+          </component>
+          <grid id="3e0" binding="table_option" layout-manager="FormLayout">
+            <rowspec value="center:36px:noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:46px:noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:45px:noGrow"/>
+            <colspec value="fill:64px:noGrow"/>
+            <colspec value="left:45dlu:noGrow"/>
+            <colspec value="fill:112px:noGrow"/>
+            <colspec value="left:50dlu:noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:63px:noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:55px:noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:max(d;4px):noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:d:grow"/>
+            <constraints>
+              <grid row="4" column="0" row-span="2" col-span="17" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <background color="-6317151"/>
+            </properties>
+            <border type="none" title="表单操作" title-justification="1">
+              <font size="12" style="1"/>
+            </border>
+            <children>
+              <component id="58a98" class="javax.swing.JLabel" binding="ID_label">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font size="12" style="1"/>
+                  <text value="编号："/>
+                </properties>
+              </component>
+              <component id="b0f3" class="javax.swing.JTextField" binding="id_text">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <enabled value="true"/>
+                </properties>
+              </component>
+              <component id="7d1a7" class="javax.swing.JLabel" binding="BN_label2">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font size="12" style="1"/>
+                  <text value="图书名称："/>
+                </properties>
+              </component>
+              <component id="b1767" class="javax.swing.JLabel" binding="AS_label">
+                <constraints>
+                  <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font size="12" style="1"/>
+                  <text value="作者性别:"/>
+                </properties>
+              </component>
+              <component id="3d96d" class="javax.swing.JRadioButton" binding="Choose_Boy">
+                <constraints>
+                  <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <background color="-6317151"/>
+                  <font size="12" style="1"/>
+                  <selected value="true"/>
+                  <text value="男"/>
+                </properties>
+              </component>
+              <component id="50362" class="javax.swing.JRadioButton" binding="Choose_Girl">
+                <constraints>
+                  <grid row="0" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <background color="-6317151"/>
+                  <font size="12" style="1"/>
+                  <text value="女"/>
+                </properties>
+              </component>
+              <component id="aa0e3" class="javax.swing.JLabel" binding="Price_label">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font size="12" style="1"/>
+                  <text value="价格:"/>
+                </properties>
+              </component>
+              <component id="4ebd7" class="javax.swing.JLabel" binding="desc_label">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font size="12" style="1"/>
+                  <text value="图书描述："/>
+                </properties>
+              </component>
+              <component id="6dcdd" class="javax.swing.JTextArea" binding="desc_text_area">
+                <constraints>
+                  <grid row="3" column="1" row-span="2" col-span="10" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                  <forms top="0" left="0" bottom="0" right="50" defaultalign-horz="false" defaultalign-vert="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="79fcb" class="javax.swing.JTextField" binding="Price_text">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="7e82c" class="javax.swing.JLabel" binding="BA_label2">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font size="12" style="1"/>
+                  <text value="图书作者:"/>
+                </properties>
+              </component>
+              <component id="3ce0b" class="javax.swing.JTextField" binding="BA_text2">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="d83c6" class="javax.swing.JLabel" binding="BT_label2">
+                <constraints>
+                  <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <font size="12" style="1"/>
+                  <text value="图书类别:"/>
+                </properties>
+              </component>
+              <component id="efb2a" class="javax.swing.JComboBox" binding="BT_comboBox2">
+                <constraints>
+                  <grid row="2" column="7" row-span="1" col-span="4" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="5f389" class="javax.swing.JTextField" binding="BN_text2">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <forms top="0" left="0" bottom="0" right="50" defaultalign-horz="false" defaultalign-vert="false"/>
+                </constraints>
+                <properties>
+                  <editable value="true"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="724db" class="javax.swing.JTextField" binding="BN_text">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="598a5" class="javax.swing.JLabel" binding="BA_label">
+            <constraints>
+              <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="图书作者:"/>
+            </properties>
+          </component>
+          <component id="64186" class="javax.swing.JLabel" binding="BT_label">
+            <constraints>
+              <grid row="0" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <text value="图书类别:"/>
+            </properties>
+          </component>
+          <component id="496b3" class="javax.swing.JComboBox" binding="BN_comboBox">
+            <constraints>
+              <grid row="0" column="14" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="3d702" class="javax.swing.JTextField" binding="BN_Author_text">
+            <constraints>
+              <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="98a11" class="javax.swing.JButton" binding="delete_butt">
+            <constraints>
+              <grid row="6" column="12" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <forms top="0" left="0" bottom="0" right="80" defaultalign-horz="false" defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <icon value="image/delete_remove_16px.png"/>
+              <text value="删除"/>
+            </properties>
+          </component>
+          <component id="ebb1e" class="javax.swing.JButton" binding="modify_butt">
+            <constraints>
+              <grid row="6" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <font size="12" style="1"/>
+              <icon value="image/Modify_16px.png"/>
+              <text value="修改"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup2">
+      <member id="3d96d"/>
+      <member id="50362"/>
+    </group>
+  </buttonGroups>
+</form>
